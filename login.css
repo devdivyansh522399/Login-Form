@@ -1,0 +1,122 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgb(178, 111, 230), rgb(212, 99, 244))
+}
+.page {
+  display: flex;
+  height: 100vh;
+  width: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  align-items: center;
+  height: 500px;
+  width: 350px;
+  padding: 20px;
+  border: 2px solid #f388fa;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 15px rgb(233, 191, 247);
+  background: white;
+}
+
+h5 {
+  text-align: center;
+  font-size: 35px;
+  margin: 5px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 0px 0px rgb(0, 0, 0);
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
+  margin: 25px;
+}
+.inputs {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.userName {
+  display: flex;
+  flex-direction: column;
+}
+
+.userName label,
+.pass label {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.userName input,
+.pass input {
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0px 2px 0px 0px rgb(0, 0, 0);
+  outline: none;
+}
+.pass {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.remember {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 0px;
+  padding-left: 15px;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.remember p {
+  margin: 0px;
+  font-size: 17px;
+  color: black;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(3, 102, 113);
+  text-decoration: underline;
+}
+.butt {
+  text-align: center;
+  margin: 15%;
+}
+
+.butt button {
+  background: linear-gradient(135deg, #f6b8fa 10%, #897eef 100%);
+  border-radius: 25px;
+  font-weight: 300;
+  border: 1px rgb(30, 28, 31);
+}
+
+.butt button:hover {
+  box-shadow: 0px 0px 10px 0px rgb(7, 7, 7);
+}
+.login__btn{
+  font-size: 25px;
+  padding: 10px 25px;
+  font-weight: bold;
+}
+.butt button h6 {
+  margin: 0px;
+  font-size: 25px;
+  padding: 10px 30px;
+}
